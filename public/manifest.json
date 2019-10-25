@@ -1,0 +1,14 @@
+{
+	"name": "Date & Time Calc",
+	"theme_color": "#3b3b3b",
+	"background_color": "#ffffff",
+	"display": "standalone",
+	"start_url": ".",
+	"icons": [
+		{
+			"src": "icon.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
