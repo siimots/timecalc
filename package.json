@@ -1,15 +1,15 @@
 {
   "name": "timecalc",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "homepage": ".",
   "dependencies": {
-    "evergreen-ui": "4.20.0",
-    "moment": "2.24.0",
-    "react": "16.11.0",
-    "react-day-picker": "7.4.0",
-    "react-dom": "16.11.0",
-    "react-scripts": "3.2.0"
+    "evergreen-ui": "7.1.8",
+    "moment": "2.29.4",
+    "react": "18.2.0",
+    "react-day-picker": "8.7.1",
+    "react-dom": "18.2.0",
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
