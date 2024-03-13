@@ -126,10 +126,12 @@ class App extends Component {
           >
             Hetkel
           </Button>
-          {" või H: "}
+        </Pane>
+        <Pane marginBottom={16}>
+          {" H: "}
           <TextInput
             type={"number"}
-            width={50}
+            width={60}
             height={24}
             value={selectedHour}
             onChange={(e) =>
@@ -139,7 +141,7 @@ class App extends Component {
           {" M: "}
           <TextInput
             type={"number"}
-            width={50}
+            width={60}
             height={24}
             value={selectedMinute}
             onChange={(e) =>
@@ -151,7 +153,7 @@ class App extends Component {
           {" S: "}
           <TextInput
             type={"number"}
-            width={50}
+            width={60}
             height={24}
             value={selectedSecond}
             onChange={(e) =>
@@ -184,7 +186,7 @@ class App extends Component {
                 {"Kuud: "}
                 <TextInput
                   type={"number"}
-                  width={50}
+                  width={60}
                   height={24}
                   title="Kuu"
                   value={addedMonth}
@@ -197,7 +199,7 @@ class App extends Component {
                 {" Päevad: "}
                 <TextInput
                   type={"number"}
-                  width={50}
+                  width={60}
                   title="Päev"
                   height={24}
                   value={addedDay}
@@ -213,7 +215,7 @@ class App extends Component {
                 {" H: "}
                 <TextInput
                   type={"number"}
-                  width={50}
+                  width={60}
                   height={24}
                   value={addedHour}
                   onChange={(e) =>
@@ -225,7 +227,7 @@ class App extends Component {
                 {" M: "}
                 <TextInput
                   type={"number"}
-                  width={50}
+                  width={60}
                   height={24}
                   value={addedMinute}
                   onChange={(e) =>
@@ -237,7 +239,7 @@ class App extends Component {
                 {" S: "}
                 <TextInput
                   type={"number"}
-                  width={50}
+                  width={60}
                   height={24}
                   value={addedSecond}
                   onChange={(e) =>
@@ -280,10 +282,12 @@ class App extends Component {
                 >
                   Hetkel
                 </Button>
-                {" või H: "}
+              </Pane>
+
+              <Pane marginBottom={16}>
                 <TextInput
                   type={"number"}
-                  width={50}
+                  width={60}
                   height={24}
                   value={selectedHour2}
                   onChange={(e) =>
@@ -295,7 +299,7 @@ class App extends Component {
                 {" M: "}
                 <TextInput
                   type={"number"}
-                  width={50}
+                  width={60}
                   height={24}
                   value={selectedMinute2}
                   onChange={(e) =>
@@ -307,7 +311,7 @@ class App extends Component {
                 {" S: "}
                 <TextInput
                   type={"number"}
-                  width={50}
+                  width={60}
                   height={24}
                   value={selectedSecond2}
                   onChange={(e) =>
